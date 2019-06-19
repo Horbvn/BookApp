@@ -1,3 +1,13 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'katalog/style.css' %}">
+<title>Page Title</title>
+</head>
+<body>
+<p>text here</p>
+
 {% if book_list %}
     <ul>
     {% for book in book_list %}
@@ -7,3 +17,7 @@
 {% else %}
     <p>No books are available.</p>
 {% endif %}
+
+
+</body>
+</html>
