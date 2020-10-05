@@ -5,6 +5,7 @@
       <mapping pattern="login_pk.feature" type="Native" />
       <mapping pattern="login_pk" type="PLAIN_TEXT" />
       <mapping ext="sqlite3" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping pattern="clients" type="Python" />
     </extensionMap>
   </component>
